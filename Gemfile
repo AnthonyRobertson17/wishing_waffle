@@ -58,3 +58,5 @@ end
 
 
 gem "devise", "~> 4.9"
+
+gem "dartsass-rails", "~> 0.5.1"

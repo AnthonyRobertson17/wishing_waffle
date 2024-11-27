@@ -1,3 +1,7 @@
-<h1>Home</h1>
+<main class="container">
+  <div class="header">
+    <h1>Home</h1>
+  </div>
 
-<%= button_to "Sign out", destroy_user_session_path, method: :delete %>
+  <%= button_to "Sign out", destroy_user_session_path, method: :delete, class: "btn btn--primary" %>
+</main>
