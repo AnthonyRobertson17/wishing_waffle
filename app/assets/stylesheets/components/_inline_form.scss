@@ -1,6 +1,10 @@
-.form {
+.inline_form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+
   &__group {
-    margin-bottom: var(--space-xs);
+    flex: 1;
   }
 
   &__input {

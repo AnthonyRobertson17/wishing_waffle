@@ -56,7 +56,8 @@ group :development do
   gem "web-console"
 end
 
-
 gem "devise", "~> 4.9"
 
 gem "dartsass-rails", "~> 0.5.1"
+
+gem "simple_form"
